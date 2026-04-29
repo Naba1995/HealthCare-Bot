@@ -38,4 +38,4 @@ MedBot : You can contact various doctors here for any kind of consultation: 1. h
 You : bye
 MedBot : goodbye
 
-chat ended on: July 11, 2021 at 12:49 AM with User
+chat ended on: July 11, 2019 at 12:49 AM with User
