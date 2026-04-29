@@ -1,0 +1,283 @@
+{"intents": [
+  {
+    "tag": "greetings",
+    "patterns": ["hi", "hey", "hello", "good day", "greetings", "what's up", "how is it going", "yo", "hi there", "hey medbot", "good morning", "good evening"],
+    "responses": ["hello", "hey!", "what can i do for you?", "Hi! How can I help you today?"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": ["cya", "see you later", "goodbye", "have a good day", "bye", "see ya", "talk to you later", "thanks bye", "see you soon"],
+    "responses": ["have a nice day", "goodbye", "bye! take care", "see you later!"]
+  },
+  {
+    "tag": "thanks",
+    "patterns": ["thanks", "thank you", "thanks a lot", "thx", "appreciate it", "thank you so much", "great thanks", "ty"],
+    "responses": ["you're welcome!", "happy to help", "anytime!", "glad i could help"]
+  },
+  {
+    "tag": "age",
+    "patterns": ["how old", "how old are you", "what is your age", "age?", "tell me your age", "your age"],
+    "responses": ["I get reborn after every compilation", "I'm as old as our chat!", "my owners are averagely 20 years!"]
+  },
+  {
+    "tag": "name",
+    "patterns": ["what is your name", "what should i call you", "what's your name?", "who are you?", "can you tell me your name", "tell me about yourself", "introduce yourself", "your name"],
+    "responses": ["you can call me Medbot!", "i am Medbot!", "i am Medbot your medical assistant"]
+  },
+
+  {
+    "tag": "common cold symptoms",
+    "patterns": [
+      "Runny or stuffy nose", "Sore throat", "Cough", "Congestion", "Sneezing", "Low-grade fever",
+      "what are the symptoms of common cold", "common cold symptoms", "cold symptoms",
+      "do i have a cold", "tell me about common cold", "i think i have a cold", "i got cold", "i have a cold"
+    ],
+    "responses": ["It seems that you are suffering from common cold"]
+  },
+  {
+    "tag": "fever symptoms",
+    "patterns": [
+      "Sweating", "Chills and shivering", "Muscle aches", "Loss of appetite", "Dehydration", "General weakness",
+      "what are the symptoms of fever", "fever symptoms", "do i have fever", "i think i have fever",
+      "i got fever", "i have fever", "tell me about fever", "high temperature", "i feel feverish"
+    ],
+    "responses": ["It seems that you are suffering from fever"]
+  },
+  {
+    "tag": "Diabetes symptoms",
+    "patterns": [
+      "increased hunger", "increased thirst", "weight loss", "frequent urination", "blurry vision", "extreme fatigue",
+      "what are the symptoms of diabetes", "diabetes symptoms", "do i have diabetes",
+      "i think i have diabetes", "tell me about diabetes", "high blood sugar", "sugar disease", "i have diabetes"
+    ],
+    "responses": ["It seems that you are suffering from Diabetes"]
+  },
+  {
+    "tag": "Depression symptoms",
+    "patterns": [
+      "Hopeless outlook", "Lost interest", "Increased fatigue", "sleep problem", "change in weight", "Looking at death",
+      "what are the symptoms of depression", "depression symptoms", "do i have depression",
+      "i think i have depression", "i feel depressed", "i am depressed", "feeling sad", "tell me about depression"
+    ],
+    "responses": ["It seems that you are suffering from depression"]
+  },
+  {
+    "tag": "Asthma symptoms",
+    "patterns": [
+      "tightness in the chest", "shortness of breath", "difficulty talking", "wheezing", "chest tightness",
+      "what are the symptoms of asthma", "asthma symptoms", "do i have asthma",
+      "i think i have asthma", "tell me about asthma", "i can't breathe properly", "i have asthma"
+    ],
+    "responses": ["It seems that you are suffering from Asthma"]
+  },
+  {
+    "tag": "headache symptoms",
+    "patterns": [
+      "throbbing pain in head", "pressure in forehead", "pain behind eyes", "head hurts",
+      "what are the symptoms of headache", "headache symptoms", "do i have a migraine", "i have a headache",
+      "i have a migraine", "my head hurts", "tell me about migraine", "migraine symptoms"
+    ],
+    "responses": ["It seems that you are suffering from a headache or migraine"]
+  },
+  {
+    "tag": "allergy symptoms",
+    "patterns": [
+      "itchy skin", "watery eyes", "skin rash", "hives", "swelling",
+      "what are the symptoms of allergy", "allergy symptoms", "do i have an allergy",
+      "i think i have an allergy", "tell me about allergies", "i am allergic", "allergic reaction"
+    ],
+    "responses": ["It seems that you are suffering from an allergic reaction"]
+  },
+  {
+    "tag": "hypertension symptoms",
+    "patterns": [
+      "high blood pressure", "blood pressure high", "severe headache and nosebleed", "vision problems and pressure",
+      "what are the symptoms of hypertension", "hypertension symptoms", "high bp symptoms",
+      "do i have high blood pressure", "tell me about hypertension", "i have high bp"
+    ],
+    "responses": ["It seems that you are suffering from hypertension (high blood pressure)"]
+  },
+  {
+    "tag": "covid symptoms",
+    "patterns": [
+      "loss of smell", "loss of taste", "dry cough fever and tiredness", "difficulty breathing covid",
+      "what are the symptoms of covid", "covid symptoms", "coronavirus symptoms",
+      "do i have covid", "tell me about covid", "covid 19 symptoms", "i have covid"
+    ],
+    "responses": ["You may be suffering from COVID-19. Please get tested and isolate yourself."]
+  },
+  {
+    "tag": "flu symptoms",
+    "patterns": [
+      "high fever and body aches", "chills and tiredness", "stuffy nose and fever",
+      "what are the symptoms of flu", "flu symptoms", "influenza symptoms",
+      "do i have the flu", "tell me about the flu", "i have the flu", "i got flu"
+    ],
+    "responses": ["It seems that you are suffering from the flu (influenza)"]
+  },
+  {
+    "tag": "anxiety symptoms",
+    "patterns": [
+      "feeling nervous", "rapid heartbeat", "restlessness", "trouble concentrating", "feeling tense",
+      "what are the symptoms of anxiety", "anxiety symptoms", "do i have anxiety",
+      "i think i have anxiety", "tell me about anxiety", "i feel anxious", "panic attacks", "i have anxiety"
+    ],
+    "responses": ["It seems that you are suffering from anxiety"]
+  },
+  {
+    "tag": "stomach symptoms",
+    "patterns": [
+      "stomach ache", "stomach pain", "indigestion", "bloating", "nausea",
+      "what are the symptoms of stomach problems", "stomach symptoms", "do i have an upset stomach",
+      "my stomach hurts", "tell me about indigestion", "i have stomach pain", "upset stomach"
+    ],
+    "responses": ["It seems that you are suffering from indigestion or a stomach problem"]
+  },
+
+  {
+    "tag": "common cold prevention",
+    "patterns": [
+      "What medicines can I buy to help me with my common cold?",
+      "tell me some prevention method from common cold",
+      "What should I eat or drink if i am suffering from common cold?",
+      "How can I keep from getting a cold or the flu?",
+      "how to prevent common cold", "medicine for common cold", "treatment for common cold"
+    ],
+    "responses": ["Medicines: Dextromethorphan, Decongestant, Diphenhydramine, Crocin Cold & Flu Max. Preventions: Wash your hands, Avoid touching your face, Clean frequently used surfaces, Use hand sanitizers. Suggested foods: Garlic, Vitamin C-rich fruits, Leafy greens, Broccoli, Oatmeal, Chicken Soup."]
+  },
+  {
+    "tag": "fever prevention",
+    "patterns": [
+      "What medicines can I buy to help me with my fever?",
+      "tell me some prevention method from fever",
+      "What should I eat or drink if i am suffering from fever?",
+      "How can I keep from getting a fever?",
+      "how to prevent fever", "medicine for fever", "treatment for fever"
+    ],
+    "responses": ["Medicines: acetaminophen, ibuprofen, aspirin, Crocin Cold & Flu Max. Preventions: Wash your hands, Cover your mouth when you cough, Clean frequently used surfaces. Suggested foods: Garlic, Vitamin C-rich fruits, Leafy greens, Broccoli, Oatmeal, Chicken Soup."]
+  },
+  {
+    "tag": "diabetes prevention",
+    "patterns": [
+      "What medicines can I buy to help me with my diabetes?",
+      "tell me some prevention method from diabetes",
+      "What should I eat or drink if i am suffering from diabetes?",
+      "How can I keep from getting diabetes?",
+      "how to prevent diabetes", "medicine for diabetes", "treatment for diabetes"
+    ],
+    "responses": ["Medicines: Insulin, Amylinomimetic drug, DPP-4 inhibitors. Preventions: Cut Sugar and Refined Carbs, Work Out Regularly, Drink Water, Lose Weight, Quit Smoking, Watch Portion Sizes. Suggested foods: Leafy greens, Avocados, Eggs."]
+  },
+  {
+    "tag": "depression prevention",
+    "patterns": [
+      "What medicines can I buy to help me with my depression?",
+      "tell me some prevention method from depression",
+      "What should I eat or drink if i am suffering from depression?",
+      "How can I keep from getting depression?",
+      "how to prevent depression", "medicine for depression", "treatment for depression"
+    ],
+    "responses": ["Medicines: brexpiprazole, quetiapine, olanzapine. Preventions: Exercise regularly, Cut back on social media, Drink Water, Build strong relationships. Suggested foods: Vitamin D, Omega-3 Fatty Acids, Beans and legumes."]
+  },
+  {
+    "tag": "asthma prevention",
+    "patterns": [
+      "What medicines can I buy to help me with my asthma?",
+      "tell me some prevention method from asthma",
+      "What should I eat or drink if i am suffering from asthma?",
+      "How can I keep from getting asthma?",
+      "how to prevent asthma", "medicine for asthma", "treatment for asthma"
+    ],
+    "responses": ["Medicines: epinephrine, anticholinergic, ProAir HFA. Preventions: Identify Asthma Triggers, Stay Away From Allergens, Avoid Smoke. Suggested foods: carrots, juice, eggs, broccoli, cantaloupe, milk."]
+  },
+  {
+    "tag": "headache prevention",
+    "patterns": [
+      "what medicines can i buy for headache", "how to prevent headache", "treatment for headache",
+      "how to prevent migraine", "medicine for migraine", "what to eat for headache"
+    ],
+    "responses": ["Medicines: ibuprofen, acetaminophen, sumatriptan (for migraine). Preventions: Stay hydrated, Get enough sleep, Manage stress, Limit screen time, Avoid skipping meals. Suggested foods: Almonds, Spinach, Watermelon, Ginger tea."]
+  },
+  {
+    "tag": "allergy prevention",
+    "patterns": [
+      "what medicines for allergy", "how to prevent allergies", "treatment for allergy",
+      "medicine for skin rash", "how to stop sneezing"
+    ],
+    "responses": ["Medicines: cetirizine, loratadine, diphenhydramine (Benadryl). Preventions: Avoid allergens, Keep windows closed during pollen season, Use HEPA filters, Wash bedding regularly. Suggested foods: Local honey, Ginger, Turmeric, Citrus fruits."]
+  },
+  {
+    "tag": "hypertension prevention",
+    "patterns": [
+      "what medicines for high blood pressure", "how to prevent hypertension", "treatment for high bp",
+      "how to lower blood pressure", "medicine for hypertension"
+    ],
+    "responses": ["Medicines: ACE inhibitors, beta blockers, diuretics (consult doctor first). Preventions: Reduce salt intake, Exercise regularly, Maintain healthy weight, Limit alcohol, Manage stress, Quit smoking. Suggested foods: Bananas, Berries, Beetroot, Oats, Leafy greens, Garlic."]
+  },
+  {
+    "tag": "covid prevention",
+    "patterns": [
+      "how to prevent covid", "what medicines for covid", "treatment for covid",
+      "how to avoid coronavirus", "covid 19 prevention"
+    ],
+    "responses": ["Preventions: Get vaccinated, Wear a mask in crowded places, Wash hands frequently, Maintain social distancing, Avoid touching face. If symptomatic: Isolate, get tested, consult a doctor for antivirals like Paxlovid. Suggested foods: Vitamin C, Vitamin D, Zinc-rich foods, Plenty of fluids."]
+  },
+  {
+    "tag": "flu prevention",
+    "patterns": [
+      "how to prevent flu", "what medicines for flu", "treatment for flu",
+      "how to avoid influenza", "flu prevention"
+    ],
+    "responses": ["Medicines: oseltamivir (Tamiflu), zanamivir, acetaminophen. Preventions: Get a yearly flu shot, Wash hands, Avoid close contact with sick people. Suggested foods: Chicken soup, Garlic, Ginger, Vitamin C-rich fruits."]
+  },
+  {
+    "tag": "anxiety prevention",
+    "patterns": [
+      "how to prevent anxiety", "what medicines for anxiety", "treatment for anxiety",
+      "how to manage anxiety", "medicine for panic attacks"
+    ],
+    "responses": ["Medicines: SSRIs (sertraline, fluoxetine), benzodiazepines (short-term, doctor's advice only). Preventions: Practice deep breathing, Regular exercise, Limit caffeine and alcohol, Get enough sleep, Try meditation. Suggested foods: Salmon, Chamomile tea, Dark chocolate, Yogurt, Green tea."]
+  },
+  {
+    "tag": "stomach prevention",
+    "patterns": [
+      "how to prevent stomach ache", "what medicines for indigestion", "treatment for stomach pain",
+      "medicine for bloating", "how to prevent indigestion"
+    ],
+    "responses": ["Medicines: antacids (Tums, Rolaids), omeprazole, simethicone for gas. Preventions: Eat smaller meals, Avoid spicy/fried food, Don't lie down right after eating, Stay hydrated, Limit alcohol. Suggested foods: Bananas, Plain rice, Toast, Yogurt, Ginger tea."]
+  },
+
+  {
+    "tag": "Consultation",
+    "patterns": [
+      "who should i contact for consultation?", "is there any doctor available?",
+      "can you give me some suggestions for doctor consultations?",
+      "can you set up a meeting with a doctor for consultation?",
+      "is there any doctor available for consultation",
+      "i want to talk to a doctor", "find me a doctor", "online doctor consultation"
+    ],
+    "responses": ["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+  },
+  {
+    "tag": "fallback",
+    "patterns": [
+      "do i have cancer", "tell me about cancer", "cancer symptoms", "what is cancer",
+      "do i have tuberculosis", "tuberculosis symptoms", "tb symptoms", "what is tb",
+      "do i have hepatitis", "hepatitis symptoms", "what is hepatitis",
+      "do i have kidney stones", "kidney stones symptoms", "tell me about kidney stones",
+      "do i have a stroke", "stroke symptoms", "what is a stroke",
+      "do i have arthritis", "arthritis symptoms", "tell me about arthritis",
+      "do i have malaria", "malaria symptoms", "what is malaria",
+      "do i have typhoid", "typhoid symptoms", "what is typhoid",
+      "do i have dengue", "dengue symptoms", "tell me about dengue",
+      "do i have aids", "hiv symptoms", "what is hiv aids",
+      "do i have alzheimer", "alzheimer symptoms", "dementia symptoms",
+      "do i have epilepsy", "epilepsy symptoms",
+      "do i have thyroid", "thyroid symptoms",
+      "do i have parkinson", "parkinson symptoms",
+      "asdf", "qwerty", "blah blah", "random text", "nonsense"
+    ],
+    "responses": [
+      "Sorry, I don't have information on that yet. I currently know about: common cold, fever, diabetes, depression, asthma, headache/migraine, allergies, hypertension, COVID-19, flu, anxiety, and stomach problems. You can also ask me to find a doctor."
+    ]
+  }
+]}

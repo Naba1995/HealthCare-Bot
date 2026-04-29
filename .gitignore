@@ -1,0 +1,35 @@
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow SavedModel directory (we ship chatbotmodel.h5 instead)
+chatbot_model.model/
+
+# Local test/scratch
+*.log
+.env
