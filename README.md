@@ -237,6 +237,3 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 ## Credits
-
-Original repo by **Samarth Kumar Pal, Rakesh Kumar, Amber Kakkar, Akash Upadhyay**.
-Modernized version (Python 3.11, modern Keras, expanded intents, fallback handling, modern GUI, test suite) by the maintainer of this fork.
